@@ -375,6 +375,24 @@
     }
 }
 
+@media (device-width: 360px) and (device-height: 740px) {
+    header span {
+        top: 52%;
+    }
+
+    section.experience {
+        height: 125vh;
+    }
+
+    section.skills {
+        height: 230vh;
+    }
+
+    .recommendations {
+        height: 55vh;
+    }
+}
+
 @media (min-width: 375px) {
     div.wrapper {
         min-height: 100vh;
@@ -408,6 +426,41 @@
         width: 80% !important;
         margin: 0 auto;
     }
+}
+
+@media (min-width: 411px) {
+    header span {
+        top: 52.5%;
+        left: 50%;
+    }
+
+    section.experience {
+        height: 125vh;
+    }
+
+    .recommendations {
+        height: 50vh;
+    }
+}
+
+@media screen and (device-width: 411px) and (device-height: 823px) {
+    header span {
+        top: 50%;
+        left: 50%;
+    }
+
+    section.experience {
+        height: 110vh;
+    }
+
+    section.skills {
+        height: 220vh;
+    }
+
+    .recommendations {
+        height: 50vh;
+    }
+
 }
 
 @media (min-width: 412px) {
@@ -678,6 +731,126 @@
         width: 50%;
         margin: 0 auto;
     }
+}
+
+@media (min-width: 768px) {
+    header nav {
+        height: 15vh;
+    }
+
+    section.hi {
+        height: 30vh;
+    }
+
+    nav i {
+        display: none !important;
+    }
+
+    nav img {
+        top: 15%;
+        left: 15%;
+    }
+
+    nav button {
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+    }
+
+    header span {
+        top: 56%;
+        width: 60%;
+    }
+
+    section.experience {
+        height: 45vh;
+        flex-direction: row;
+    }
+
+    .experience .text {
+        height: 100%;
+    }
+
+    .experience img {
+        width: 60%;
+        margin: 40px 20px;
+    }
+
+    section.skills {
+        padding-top: 20px;
+        height: 45vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .skills .skill {
+        height: 45%;
+        width: 50%;
+    }
+
+    .skill img {
+        width: 50%;
+        border-radius: 30px;
+    }
+
+    .recommendations {
+        height: 30vh;
+        position: relative;
+    }
+
+    .recommendations .rec:nth-of-type(3) {
+        position: absolute;
+        top: 61%;
+        left: -100%;
+        transform: translateY(-50%);
+    }
+
+    .recommendations div.container {
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .recommendations div.container div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+        transition: .3s;
+    }
+
+    .recommendations div.container div i {
+        transition: .3s;
+    }
+
+    .recommendations div.container div:hover i {
+        color: rgba(0, 0, 0, 1);
+        transform: scale(1.2);
+    }
+
+    div.container div.left {
+        left: 5px;
+    }
+
+    div.container div.right {
+        right: 5px;
+    }
+
+    .recommendations .rec {
+        width: 90%;
+        border-radius: 30px;
+        z-index: 2;
+    }
+
 }
 
 /* Smartphones (portrait) ----------- */
