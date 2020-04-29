@@ -23,7 +23,8 @@ div.wrapper {
     overflow-x: hidden;
 }
 
-header {
+header,
+div.wrapper {
     position: relative;
 }
 
