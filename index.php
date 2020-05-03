@@ -99,7 +99,7 @@
             <h2>What I'm planning?</h2>
             <div class="text">
                 <p>I live in Cracow, Lesserpoland where I study, work for
-                    <a href = "https://seoheroes.pl/" rel="nofollow" target="_blank">seoheroes.pl</a> daily and
+                    <a href="https://seoheroes.pl/" rel="nofollow" target="_blank">seoheroes.pl</a> daily and
                     cooperate with
                     <a href="https://wirtuozikodu.pl/" rel="nofollow" target="_blank">WirtuoziKodu.pl</a>.</p>
                 <p>Outside work I enjoy watching Netflix, listening to <span>music</span> and selfdeveloping and also
@@ -108,7 +108,8 @@
                 <p>Follow me to see lots of my progress screenshots and fun side projects on
                     <a href="https://www.instagram.com/bartek.szymaski/" rel="nofollow" target="_blank">Instagram</a>
                     and
-                    <a href="https://www.linkedin.com/in/bartosz-szyma%C5%84ski-a6b418169/" rel="nofollow" target="_blank">linked.in</a>.
+                    <a href="https://www.linkedin.com/in/bartosz-szyma%C5%84ski-a6b418169/" rel="nofollow"
+                        target="_blank">linked.in</a>.
                 </p>
             </div>
         </section>
@@ -120,20 +121,20 @@
             <div class="text">
                 <p>I'm eager to take up new project at the moment, you're more than welcome to contact me via
                     <a href="mailto:szymaskibartosz@gmail.com">email</a> or send me a message on
-                    <a href="https://www.linkedin.com/in/bartosz-szyma%C5%84ski-a6b418169/" rel="nofollow" target="_blank">linked.in</a>.
+                    <a href="https://www.linkedin.com/in/bartosz-szyma%C5%84ski-a6b418169/" rel="nofollow"
+                        target="_blank">linked.in</a>.
                 </p>
             </div>
             <div class="icons">
-                <a href="https://www.facebook.com/bartosz.szymaski/" rel="nofollow" target="_blank">                <i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.linkedin.com/in/bartosz-szyma%C5%84ski-a6b418169/" rel="nofollow" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/bartek.szymaski/" rel="nofollow" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.facebook.com/bartosz.szymaski/" rel="nofollow" target="_blank"> <i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/bartosz-szyma%C5%84ski-a6b418169/" rel="nofollow"
+                    target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/bartek.szymaski/" rel="nofollow" target="_blank"><i
+                        class="fab fa-instagram-square"></i></a>
             </div>
         </footer>
-    </div>
-    <div class="modal">
-        <div class="close">
-            <i class="fas fa-times-circle"></i>
-        </div>
+        <?php require_once('/php/modal.php'); ?>
     </div>
     <script src="js/main.js"></script>
 </body>
